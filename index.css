@@ -86,7 +86,7 @@ p {
     height: 100%;
     /* position: absolute; */
     text-align: center;
-    font-size: 200%;
+    font-size: 5vw;
     /* margin-top: calc(20% - 45px); */
     color: #0f0f0f;
 }
