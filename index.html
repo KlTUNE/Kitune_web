@@ -8,25 +8,46 @@
 </head>
 <body>
     <div id="contents">
-        <div id="profile">
+        <a id="profile" onclick="profile_contents(0)">
             <p>名前：キツネ</p>
-        </div>
+        </a>
         <div id="grid">
-            <div id="work" class="grid_items">
+            <a id="work" class="grid_items" onclick="work_contents(0)">
                 <p>WORK</p>
-            </div>
-            <div id="skill" class="grid_items">
+            </a>
+            <a id="skill" class="grid_items" onclick="skill_contents(0)">
                 <p>SKILL</p>
-            </div>
-            <div id="contact" class="grid_items">
+            </a>
+            <a id="contact" class="grid_items" onclick="contact_contents(0)">
                 <p>CONTACT</p>
-            </div>
-            <div id="konkon" class="grid_items">
+            </a>
+            <a id="konkon" class="grid_items" onclick="konkon_contents(0)">
                 <p>こんこん</p>
-            </div>
+            </a>
         </div>
+    </div>
+    <div id="profile_contents" class="contents">
+        <a onclick="profile_contents(1)">閉じる</a>
+        <p>なんで『きつね』かって？<br>そんなのおぼえてねぇーよ</p>
+    </div>
+    <div id="work_contents" class="contents">
+        <a onclick="work_contents(1)">閉じる</a>
+        <p>働きました</p>
+    </div>
+    <div id="skill_contents" class="contents">
+        <a onclick="skill_contents(1)">閉じる</a>
+        <p>わたくし、こんなスキルあります</p>
+    </div>
+    <div id="contact_contents" class="contents">
+        <a onclick="contact_contents(1)">閉じる</a>
+        <p>連絡ちょうだ〜〜い</p>
+    </div>
+    <div id="konkon_contents" class="contents">
+        <a onclick="konkon_contents(1)">閉じる</a>
+        <p>かあいいきつねちゃんに餌を上げれる場所(予定)</p>
     </div>
     <footer id="copylight">© 2024 KITUNE</footer>
 </body>
+<script src="./jquery-3.7.1.min.js"></script>
 <script src="./index.js"></script>
 </html>

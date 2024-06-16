@@ -19,6 +19,7 @@ p {
 }
 
 #profile {
+    z-index: 10;
     display: block;
     transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
     width: 99%;
@@ -30,7 +31,19 @@ p {
     box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
 }
 
+#profile p{
+    display: block;
+    /* width: 100%;
+    height: 100%; */
+    /* position: absolute; */
+    /* text-align: center; */
+    font-size: 5vw;
+    /* margin-top: calc(20% - 45px); */
+    color: #0f0f0f;
+}
+
 #profile:hover {
+    z-index: 20;
     width: 100%;
     box-shadow: 15px 15px 15px #8f8f8f, -15px -15px 15px #ffffff;
 }
@@ -52,6 +65,8 @@ p {
 }
 
 .grid_items {
+    display: block;
+    z-index: 10;
     transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
     /* position: relative; */
     width: 99%;
@@ -63,6 +78,7 @@ p {
 }
 
 .grid_items:hover {
+    z-index: 20;
     width: 100%;
     background-color: #f0f0f0;
     border-radius: 10px;
@@ -81,17 +97,42 @@ p {
 }
 
 .grid_items p {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* position: absolute; */
-    text-align: center;
     font-size: 5vw;
-    /* margin-top: calc(20% - 45px); */
     color: #0f0f0f;
 }
 
+.contents {
+    z-index: 30;
+    transition: all 0.5s;
+    position: fixed;
+    top: 100%; left: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 90pt;
+}
+
+#profile_contents {
+    background-color: #ff9100;
+}
+
+#work_contents {
+    background-color: #ff0000;
+}
+
+#skill_contents {
+    background-color: #00fff7;
+}
+
+#contact_contents {
+    background-color: #00ff00;
+}
+
+#konkon_contents {
+    background-color: #ff00ff;
+}
+
 #copylight {
+    z-index: 10000;
     display: inline;
     position: absolute;
     bottom: 0; left: calc(50% - 53px);
