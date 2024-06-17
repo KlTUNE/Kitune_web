@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./index_mob.css">
     <title>KITUNE</title>
 </head>
 <body>
     <div id="contents">
         <a id="profile" onclick="profile_contents(0)">
-            <p>
-                <div id="name">きつね</div><br>
-                こんにちは！きつねです。<br>
-                KITUNEって書いてキツネって読みます。<br>
-                きつねってなんでしょう？
+            <p id="prof_name">KITUNE</p><br>
+            <p id="prof_about">
+                きつねです。<br>
+                <br>
+                <br>
             </p>
         </a>
         <div id="grid">
@@ -32,23 +33,26 @@
         </div>
     </div>
     <div id="profile_contents" class="contents">
-        <a onclick="profile_contents(1)">✖️</a>
-        <p>なんで『きつね』かって？<br>そんなのおぼえてn...</p>
+        <a class="close" onclick="profile_contents(1)">✖️</a>
+        <p>
+            なんで『きつね』かって？<br>
+            そんなのおぼえてn...
+        </p>
     </div>
     <div id="work_contents" class="contents">
-        <a onclick="work_contents(1)">✖️</a>
+        <a class="close" onclick="work_contents(1)">✖️</a>
         <p>こんなんつくったよ</p>
     </div>
     <div id="skill_contents" class="contents">
-        <a onclick="skill_contents(1)">✖️</a>
+        <a class="close" onclick="skill_contents(1)">✖️</a>
         <p>わたくし、こんなスキルあります</p>
     </div>
     <div id="contact_contents" class="contents">
-        <a onclick="contact_contents(1)">✖️</a>
-        <p id="mail">EMAIL : <span>k22121kk@gmail.com</span></p>
+        <a class="close" onclick="contact_contents(1)">✖️</a>
+        <p id="mail">EMAIL : <a href="mailto:k22121kk@gmail.co">k22121kk@gmail.com</a></p>
     </div>
     <div id="konkon_contents" class="contents">
-        <a onclick="konkon_contents(1)">✖️</a>
+        <a class="close" onclick="konkon_contents(1)">✖️</a>
         <p>かみんぐすーん</p>
     </div>
     <footer id="copylight">© 2024 KITUNE</footer>

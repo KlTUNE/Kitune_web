@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+    #konkon {
+        display: none;
+    }
+
+    #profile {
+        z-index: 10;
+        position: relative;
+        display: block;
+        transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
+        width: 99%;
+        height: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
+    }
+
+    #grid {
+        display: block;
+    }
+
+	.grid_items {
+        display: block;
+        z-index: 10;
+        transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
+        /* position: relative; */
+        width: 99%;
+        height: 25%;
+        margin-bottom: 10px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
+    }
+
+
+}
