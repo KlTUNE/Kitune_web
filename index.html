@@ -9,7 +9,12 @@
 <body>
     <div id="contents">
         <a id="profile" onclick="profile_contents(0)">
-            <p>名前：キツネ</p>
+            <p>
+                <div id="name">きつね</div><br>
+                こんにちは！きつねです。<br>
+                KITUNEって書いてキツネって読みます。<br>
+                きつねってなんでしょう？
+            </p>
         </a>
         <div id="grid">
             <a id="work" class="grid_items" onclick="work_contents(0)">
@@ -22,29 +27,29 @@
                 <p>CONTACT</p>
             </a>
             <a id="konkon" class="grid_items" onclick="konkon_contents(0)">
-                <p>こんこん</p>
+                <p>KONKON</p>
             </a>
         </div>
     </div>
     <div id="profile_contents" class="contents">
-        <a onclick="profile_contents(1)">閉じる</a>
-        <p>なんで『きつね』かって？<br>そんなのおぼえてねぇーよ</p>
+        <a onclick="profile_contents(1)">✖️</a>
+        <p>なんで『きつね』かって？<br>そんなのおぼえてn...</p>
     </div>
     <div id="work_contents" class="contents">
-        <a onclick="work_contents(1)">閉じる</a>
-        <p>働きました</p>
+        <a onclick="work_contents(1)">✖️</a>
+        <p>こんなんつくったよ</p>
     </div>
     <div id="skill_contents" class="contents">
-        <a onclick="skill_contents(1)">閉じる</a>
+        <a onclick="skill_contents(1)">✖️</a>
         <p>わたくし、こんなスキルあります</p>
     </div>
     <div id="contact_contents" class="contents">
-        <a onclick="contact_contents(1)">閉じる</a>
-        <p>連絡ちょうだ〜〜い</p>
+        <a onclick="contact_contents(1)">✖️</a>
+        <p id="mail">EMAIL : <span>k22121kk@gmail.com</span></p>
     </div>
     <div id="konkon_contents" class="contents">
-        <a onclick="konkon_contents(1)">閉じる</a>
-        <p>かあいいきつねちゃんに餌を上げれる場所(予定)</p>
+        <a onclick="konkon_contents(1)">✖️</a>
+        <p>かみんぐすーん</p>
     </div>
     <footer id="copylight">© 2024 KITUNE</footer>
 </body>
