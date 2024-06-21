@@ -35,6 +35,8 @@ p {
     box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
 }
 
+
+
 /* #profile p{ */
     /* display: block; */
     /* width: 100%;
@@ -106,7 +108,8 @@ p {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 10vh;
+    font-size: 12vh;
+    line-height: 99%;
 }
 
 .contents {
@@ -141,6 +144,18 @@ p {
     color: #0f0f0f;
 }
 
+#prof_title {
+    z-index: 12;
+    position: absolute;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20vh;
+    line-height: 99%;
+}
+
 #prof_name {
     z-index: 11;
     position: absolute;
@@ -160,6 +175,10 @@ p {
     position: absolute;
     font-size: 4vh;
     line-height: 99%;
+}
+
+#profile_contents  p {
+    font-size: 16pt;
 }
 
 #mail {
