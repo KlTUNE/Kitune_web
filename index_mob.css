@@ -1,7 +1,11 @@
 @media screen and (max-width: 480px) {
-    #konkon {
-        display: none;
+    #contents{
+        width: 90%;
+        height: 100%;
+        margin-top: 10vh;
     }
+
+
 
     #profile {
         z-index: 10;
@@ -9,30 +13,125 @@
         display: block;
         transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
         width: 99%;
-        height: 50%;
+        height:35vw;
         margin: 0 auto;
         margin-bottom: 20px;
         background-color: #f0f0f0;
         border-radius: 10px;
         box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
     }
+    #prof_title {
+        left: 2%;
+        font-size:18vw;
+    }
+    #prof_name {
+        top: 10vw; right: 5%;
+        font-size: 20vw;
+    }
+
+
 
     #grid {
         display: block;
+        height: 80vw;
     }
-
 	.grid_items {
-        display: block;
-        z-index: 10;
-        transition: all 0.3s cubic-bezier(.93,1.69,.53,.91);
-        /* position: relative; */
-        width: 99%;
         height: 25%;
-        margin-bottom: 10px;
-        background-color: #f0f0f0;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px #aaaaaa, -10px -10px 10px #ffffff;
+        margin-bottom: 15px;
+    }
+    .grid_items p {
+        display: block;
+        text-align: center;
+        font-size: 15vw;
+        line-height: 120%;
     }
 
 
+
+    .close {
+        width: 30px;
+        height: 30px;
+        top: 5px; right: 10px;
+        font-size: 20pt;
+    }
+    .close:hover {
+        padding-top: 0px;
+        font-size: 20pt;
+    }
+    .contents p {
+        font-size: 20pt;
+    }
+
+
+
+    #about {
+        margin-top: 5vh;
+    }
+    #about p:nth-child(1) {
+        font-size: 13vw;
+    }
+    #about p:nth-child(2), #info ul {
+        margin-top: 1.5vw;
+        font-size: 3.3vw;
+    }
+    #info li, #links li {
+        font-size: 4vw;
+    }
+    #info, #links {
+        margin-top: 7vw;
+    }
+    #info p, #links p {
+        font-size: 8vw;
+    }
+
+
+
+    #work_contents li {
+        font-size: 10vw;
+    }
+    #works {
+        margin-top: 20vw;
+    }
+    #work_title {
+        padding-left: 5vw;
+        text-align: right;
+    }
+    #work_contents p {
+        font-size: 7vw;
+    }
+    #github {
+        margin-top: 5vh;
+    }
+
+
+
+    #skill_contents ul{
+        margin-top: 10vw;
+        margin-left: calc(50vw - 22*1.5vw - 5px);
+        grid-template-columns: repeat(3 , 22vw);
+        grid-template-rows: repeat(10 , 22vw);
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+    #skill_contents li div{
+        width: 22vw;
+        height: 22vw;
+        font-size: 3vw;
+    }
+
+
+
+    #mail {
+        font-size: 7vw;
+        margin-top: 45vh;
+    }
+    #mail a{
+        border-bottom: none;
+    }
+
+
+
+    #konkon {
+        display: none;
+    }
 }
