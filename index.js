@@ -1,4 +1,4 @@
-
+alert("申し訳ございません。現在、このページはメンテナンス中です。");
 
 function profile_contents(aa) {
     console.log(aa);

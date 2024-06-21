@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 html {
     background-color: #f0f0f0;
@@ -12,6 +13,12 @@ p {
     margin: 0;
     padding: 0;
     color: #343436;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 #contents{
@@ -170,19 +177,56 @@ p {
     -webkit-text-stroke: 2px #d9d8d8;
 }
 
-#prof_about {
+/* #prof_about {
     z-index: 12;
     position: absolute;
     font-size: 4vh;
     line-height: 99%;
+} */
+
+#profile_contents  p, #profile_contents  li {
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vh;
 }
 
-#profile_contents  p {
-    font-size: 16pt;
+#about {
+    margin-top: 10vh;
+}
+
+#about p:nth-child(1) {
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8vh;
+}
+
+#about p:nth-child(2), #info ul {
+    margin-top: 1.5vh;
+}
+
+#about span {
+    font-weight: 500;
+}
+
+#info, #links {
+    margin-top: 5vh;
+}
+
+#info p, #links p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vh;
 }
 
 #mail {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     margin-top: 45vh;
 }
@@ -194,6 +238,11 @@ p {
 }
 #mail a:hover{
     color: #7a7a7e;
+}
+
+#konkon_contents p{
+    text-align: center;
+    font-size: 30vw;
 }
 
 #copylight {
