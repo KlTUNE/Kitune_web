@@ -1,3 +1,3 @@
 # Kitune_web
-kitune のwebサイト
-https://kitune-udon.com
+## ↓KITUNEのwebサイト  
+##  https://kitune-udon.com
